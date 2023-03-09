@@ -1,19 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<link rel="icon" type="image/svg" href="img/icons/favicon.svg">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/javascript" href="js/slick.js"/>
 	<title>Салон красоты Алёша</title>
 </head>
 <body>
-	<header>
-		
+	<!-- Шапка сайта -->
+	<header class="header">
+		<div class="header-blocks">
+			<nav class="header-nav">
+				<ul>
+					<li class="header-item"><a href="#information">О нас</a></li>
+					<li class="header-item"><a href="#services">Услуги</a></li>
+					<li class="header-item"><a href="#reviews">Отзывы</a></li>
+					<li class="header-item"><a href="#feedback">Обратная связь</a></li>
+					<li class="header-item"><a href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+		<a  class="header-phone"href="tel:+7(812)945-80-14">+7 (812) 945-80-14</a>
+		<span class="header-address">г. Омск, ул.Восстания 20/16</span>
+		</div>		
 	</header>
+	<!-- Контент сайта -->
 	<main>
-		
+		<!-- Блок Переход к форме -->
+		<section>
+			<div class="transition">
+				<img class="transition-logo" src="img/icons/logo.svg" alt="logo">
+				<h1 class="transition-heading">САЛОН КРАСОТЫ АЛЁША</h1>
+				<p class="transition-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non! 
+				</p>
+				<a class="transition-btn" href="#feedback">Запишись сейчас!</a>
+			</div>
+		</section>
+
+		<!-- Блок О нас -->
+		<section id="information">
+			<div class="information">
+					<h2 class="heading">О нас</h2>
+				<div class="information-inner">
+					<div class="information-left">
+						<img src="img/information-1.jpg" alt="рабочие места">
+						<p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non!</p>
+					</div>
+					<div class="information-right">
+						<img src="img/information-2.jpg" alt="процесс стрижки">
+						<p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Блок Услуги -->
+		<section id="services">
+			<div class="services">
+				<h2 class="heading">Услуги</h2>
+				<div class="services-block">
+					<div class="services-card">
+						<img class="services-img" src="img/barbershop.png" alt="Парикмахерские услуги">
+						<h2 class="services-name">Парикмахерские</h2>
+						<p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra sit. Quis varius quam quisque id diam vel quam. </p>
+						<p class="services-price">Price: 1$</p>
+					</div>
+					<div class="services-card-center">
+						<img class="services-img" src="img/cosmetic.png" alt="Парикмахерские услуги">
+						<h2 class="services-name">Косметические</h2>
+						<p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra sit. Quis varius quam quisque id diam vel quam. </p>
+						<p class="services-price">Price: 1$</p>
+					</div>
+					<div class="services-card">
+						<img class="services-img" src="img/manicure.png" alt="Парикмахерские услуги">
+						<h2 class="services-name">Ногтевой сервис</h2>
+						<p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra sit. Quis varius quam quisque id diam vel quam. </p>
+						<p class="services-price">Price: 1$</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Блок Отзывы -->
+		<section id="reviews">
+			<div class="reviews">
+				<h2 class="heading">Отзывы</h2>
+				<div class="reviews-slider">
+					<div class="slide slide-left">
+						<img class="slide-img" src="img/man.png" alt="Мужчина">
+						<h3 class="slide-name">Surname Name</h3>
+						<p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Quam pellentesque nec nam aliquam sem et!</p>
+						<div class="slide-icons">
+							<img src="img/icons/ws-orange.svg" alt="Whatssap">
+							<img src="img/icons/tg-orange.svg" alt="Telegram">
+						</div>
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="img/woman.png" alt="Мужчина">
+						<h3 class="slide-name">Surname Name</h3>
+						<p class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Quam pellentesque nec nam aliquam sem et!</p>
+						<div class="slide-icons">
+							<img src="img/icons/vk-orange.svg" alt="Whatssap">
+							<img src="img/icons/tg-orange.svg" alt="Telegram">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Блок Обратная связь -->
+		<section id="feedback">
+			
+		</section>
+
+		<!-- Блок Контакты -->
+		<section id="contacts">
+			
+		</section>
 	</main>
-	<footer>
+	<!-- Подвал сайта -->
+	<footer class="footer">
 		
 	</footer>
+	<script type="text/javascript" src="js/jquery-3.6.4.min.js"></script>
 </body>
 </html>
