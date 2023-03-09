@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
 	margin: 0;
@@ -272,3 +273,180 @@ a {
 .slide-icons{
 	padding: 22px 0 18px 17px;
 }
+=======
+html{
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/*Style for Header*/
+.header{
+	width: 1920px;
+	height: 60px;
+	background-color: #f5764e;
+}
+.header-blocks{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-item {
+	display: inline-block;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+.header-item + .header-item {
+	padding-left: 42px;
+}
+.header-nav a {
+	color: #FFFFFF;
+}
+.header-nav a:hover{
+	color: #ffe600;
+}
+.header-phone {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-left: 177px;
+}
+.header-address {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-left: 89px;
+}
+/*Style for Main*/
+/*Style for Переход*/
+.transition {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1920px;
+	height: 800px;
+	background-image: url('../img/fons.jpg');
+	background-size: no-repeat;
+}
+.transition-logo {
+	padding-top: 106px;
+	width: 107px;
+	height: 107px;
+}
+.transition-heading{
+	padding-top: 55px;
+	margin: 0;
+	font-family: 'Jost';
+	font-style: normal;
+	width: 417px;
+	height: 106px;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 119.5%;
+	color: #FFFFFF;
+	text-align: center;
+}
+.transition-text {
+	padding-top: 57px;
+	padding-bottom: 57px;
+	margin: 0;
+	font-family: 'Jost';
+	font-style: normal;
+	width: 543px;
+	height: 87px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.transition-btn {
+	padding-top: 19px;
+	padding-bottom: 19px;
+	width: 240px;
+	background: #F5764E;
+	border-radius: 5px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+}
+/*Style for О нас*/
+.information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 1160px;
+	height: 655px;
+	margin: 0 auto;
+}
+.information-heading {
+	width: 129px;
+	height: 57px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 119.5%;
+	color: #F5764E;
+	margin: 0;
+	padding: 39px 0 40px 0;
+}
+.information-inner {
+	display: flex;
+	flex-direction: row;
+}
+.information-text {
+	width: 512px;
+	height: 87px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+	margin: 0;
+	padding: 32px 0 40px 24px;
+}
+.information-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 40px;
+}
+.information-left img {
+	width: 560px;
+	height: 360px;
+}
+.information-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.information-right img {
+	width: 560px;
+	height: 360px;
+}
+>>>>>>> 600a925adfbc3b3e42e5f761e93c26c7623d3444
